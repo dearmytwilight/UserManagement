@@ -1,6 +1,8 @@
 package com.example.UserManagement.repository;
 
 import com.example.UserManagement.domain.Member;
+import org.springframework.stereotype.Repository;
+
 import java.util.*;
 
 public class MemoryMemberRepository implements MemberRepository {
